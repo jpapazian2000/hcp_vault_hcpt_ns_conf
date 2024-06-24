@@ -1,8 +1,8 @@
 output "dw_namespace" {
-    value = vault_namespace.dw_ns.path
+    value = vault_namespace.dw_ns.path_fq
 }
 output "allergy_namespace" {
-    value = vault_namespace.allergy_ns.path
+    value = vault_namespace.allergy_ns.path_fq
 }
 output "ccf_namespace" {
     value = vault_namespace.ccf_ns.path
