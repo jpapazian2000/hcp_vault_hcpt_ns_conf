@@ -6,7 +6,7 @@ data "tfe_outputs" "vault_infra" {
 #enable an auth method (userpass for the demo), and create a 'security admin' user
 #this user will perform tasks such as ns creation,
 resource "vault_auth_backend" "userpass" {
-  namespace = "dw"
+  namespace = "admin/dw"
   type = "userpass"
   #path = "chc_cybersecu"
 }
