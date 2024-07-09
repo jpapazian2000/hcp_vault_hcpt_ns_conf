@@ -15,7 +15,7 @@ provider "vault" {
   #address = data.tfe_outputs.vault_infra.values.vault_public_url
   address = var.vault_public_url
   auth_login_userpass {
-    namespace = "admin"
+    namespace = "admin/sanofi"
     username = var.vault_admin_user
     password = var.vault_admin_password
   }
