@@ -8,5 +8,5 @@ output "ccf_namespace" {
     value = vault_namespace.BU2_ns.path_fq
 }
 output "pc_namespace" {
-    value = vault_namespace.app1.path
+    value = vault_namespace.app1_ns.path
 }
