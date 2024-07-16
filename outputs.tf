@@ -1,18 +1,12 @@
 output "dw_namespace" {
-    value = vault_namespace.dw_ns.path_fq
+    value = vault_namespace.it_ns.path_fq
 }
 output "allergy_namespace" {
-    value = vault_namespace.allergy_ns.path_fq
+    value = vault_namespace.BU1_ns.path_fq
 }
 output "ccf_namespace" {
-    value = vault_namespace.ccf_ns.path
+    value = vault_namespace.BU2_ns.path_fq
 }
 output "pc_namespace" {
-    value = vault_namespace.pc_ns.path
+    value = vault_namespace.app1.path
 }
-output "pmw_namespace" {
-    value = vault_namespace.pmw_ns.path
-}
-#output "dw_admin_user" {
-    #value = vault_generic_endpoint.dw_admin.write_data["id"]
-#}
