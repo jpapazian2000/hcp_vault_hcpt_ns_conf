@@ -1,12 +1,12 @@
-output "dw_namespace" {
+output "it_namespace" {
     value = vault_namespace.it_ns.path_fq
 }
-output "allergy_namespace" {
+output "BU1_namespace" {
     value = vault_namespace.BU1_ns.path_fq
 }
-output "ccf_namespace" {
+output "BU2_namespace" {
     value = vault_namespace.BU2_ns.path_fq
 }
-output "pc_namespace" {
+output "app1_namespace" {
     value = vault_namespace.app1_ns.path
 }
